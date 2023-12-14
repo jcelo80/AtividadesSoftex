@@ -1,0 +1,49 @@
+algoritmo "eleições"
+
+var
+   apuracao, v1 : inteiro
+
+inicio
+      escrevaL("--------E L E I C O E S---------")
+      escrevaL("")
+      escrevaL("Vote em um dos cadidatos abaixo:")
+      escrevaL("(1)candidato_X")
+      escrevaL("(2)candidato_Y")
+      escrevaL("(3)candidato_Z")
+      escrevaL("(4)branco")
+      escrevaL("--------------------------------")
+      leia(apuracao)
+      
+      Escolha apuracao
+      
+      caso 1
+         escrevaL ("candidato_X: 889 votos")
+         escrevaL ("deseja finalizar a votação?")
+         
+      caso 2
+         escrevaL ("candidato_Y: 847 votos")
+         escrevaL ("deseja finalizar a votação?")
+         
+      caso 3
+         escrevaL ("candidato_Z: 515 votos")
+         escrevaL ("deseja finalizar a votação?")
+         
+      outrocaso
+         escrevaL ("Nulo")
+         
+      FimEscolha
+      
+          Se (apuracao <> 0) e (apuracao <> 1) e  (apuracao <> 1) e (apuracao <> 3)  entao
+             escreva ("retorne e vote novamente")
+          FimSe
+      
+      escrevaL("")
+      escrevaL("O VENCEDOR foi o candidato_X com total de 891 votos")
+      escrevaL("")
+      escrevaL("-----TOTAL DE VOTOS--------")
+      escrevaL("candidato_X: 890 votos")
+      escrevaL("candidato_Y: 847 votos")
+      escrevaL("brancos: 0 votos")
+      escrevaL("nulo: 0 votos")
+      
+fimalgoritmo

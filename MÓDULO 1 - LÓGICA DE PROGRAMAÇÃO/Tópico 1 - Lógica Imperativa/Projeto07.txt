@@ -1,0 +1,20 @@
+algoritmo "transportes"
+
+var
+    s, n : logico
+
+inicio
+
+   escrevaL ("É terrestre?")
+   se s entao
+      escreva ("Cabe apenas uma pessoa?")
+   senao  ("Nao cabe uma pessoa")
+      escrevaL ("É pesado?")
+      se s entao
+         escrevaL ("Tem pedal?")
+      senao  ("Nao tem pedal")
+         se s entao
+           escrevaL ("Então, o transporte escolhido foi a bicicleta.")
+         FimSe
+      FimSe
+   FimSe

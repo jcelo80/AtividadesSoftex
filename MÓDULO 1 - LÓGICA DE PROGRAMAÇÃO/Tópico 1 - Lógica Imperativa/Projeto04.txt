@@ -1,0 +1,56 @@
+Elabore um algoritmo que representa um cadastro. Ele deve ler os seguintes dados fornecidos pelo usuário:
+
+- Nome
+- Endereço
+- Cidade
+- CPF
+- RG
+- Idade
+- Nome do pai
+- Nome da mãe
+- Peso
+- Renda bruta
+
+Apresente as informações solicitadas no final do cadastro.
+
+****************************** R E S P O S T A*******************************************
+
+Algoritmo "Cadastro"
+
+Var
+   nome, endereco, cidade, NomePai, NomeMae : caractere
+   CPF, RG, idade : inteiro
+   peso, RendaBruta : real
+
+Inicio
+      Escreva("Escreva seu NOME:" )
+      Leia(nome)
+      Escreva("Escreva seu ENDERECO:" )
+      Leia(endereco)
+      Escreva("Escreva sua CIDADE:" )
+      Leia(cidade)
+      Escreva("Escreva seu CPF:" )
+      Leia(CPF)
+      Escreva("Escreva seu RG:" )
+      Leia(RG)
+      Escreva("Escreva sua IDADE:" )
+      Leia(idade)
+      Escreva("Escreva o NOME DO PAI:" )
+      Leia(NomePai)
+      Escreva("Escreva o NOME DA MAE:" )
+      Leia(NomeMae)
+      Escreva("Escreva seu PESO:" )
+      Leia(peso)
+      Escreva("Escreva sua RENDA BRUTA:" )
+      Leia(RendaBruta)
+
+      EscrevaL("Seu NOME é ", nome)
+      EscrevaL("Seu ENDEREÇO é ", endereco)
+      EscrevaL("Na cidade de ", cidade)
+      EscrevaL("CPF:", CPF)
+      EscrevaL("RG:", RG)
+      EscrevaL("IDADE:", idade, " anos")
+      EscrevaL("NOME DO PAI: ", NomePai)
+      EscrevaL("NOME DA MAE: ", NomeMae)
+      EscrevaL("Seu PESO é", peso," KG")
+      EscrevaL("sua RENDA BRUTA: R$ ", RendaBruta)

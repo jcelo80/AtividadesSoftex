@@ -1,0 +1,23 @@
+1. A proposta das variáveis:
+
+ caractere = "José Almeida da Silva"
+ inteiro = 12345678900
+ inteiro = 9517530
+ lógico = 1.78
+ caractere = "Rua A, 380 – Centro – Recife/PE
+
+2. Elaborada a declaração das variáveis:
+
+ Nome = "José Almeida da Silva"
+ CPF = 12345678900
+ RG = 9517530
+ Altura = 1.78
+ Endereço = "Rua A, 380 – Centro – Recife/PE
+
+3. Utilizado o comando de atribuição:
+
+ Nome <= "José Almeida da Silva"//
+ CPF <= 12345678900//
+ RG <= 9517530//
+ Altura <= 1.78//
+ Endereço <= "Rua A, 380 – Centro – Recife/PE"//
